@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/base.css">
+    <link rel="stylesheet" type="text/css" href="./css/helper.css">
+    <link rel="stylesheet" type="text/css" href="./css/estilo.css">
+    <title>{{cookiecutter.titulo}}</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="bloque" id="barra">
+            <div class="fila" id="barratop">
+            </div>
+            <div class="fila" id="barramid">
+            </div>
+            <div class="fila" id="barrabot">
+            </div>
+        </div>
+        <div class="bloque" id="contenido">
+            <div class="fila" id="contetop">
+                <h2>{{cookiecutter.titulo}}</h2>
+                <p>{{cookiecutter.descripcion}}</p>
+            </div>
+            <div class="fila" id="contemid">
+                <div class="subcontenedor">
+                    <div class="subbloque" id="grafico">
+                    </div>
+                    <div class="subbloque" id="subbarra">
+                        <div id="descarga">
+                            <p>Descripción de la descarga</p>
+                            <p>última actualización: <span id="fecha_act">fecha</span></p>
+                            <button type="button" id="boton-desc">Descarga los datos</button> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fila" id="contebot">
+                <p class="fuente"><span class="metadef">Fuente:</span> {{cookiecutter.fuente}}</p>
+                <p class="licencia"><span class="metadef">Licencia:</span>  {{cookiecutter.licencia}}</p>    
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<script src="./js/script.js" type="module"></script>
+</html>
