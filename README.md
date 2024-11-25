@@ -1,4 +1,4 @@
-Template para generar una web con la estructura de la visualización de datos para el sitio de Datos Abiertos de México
+Template para generar una web con la estructura de DA
 ====================
 
 Requerimientos
