@@ -13,7 +13,7 @@ Uso
 -----
 Para crear un proyecto de web nuevo:
 
-`cookiecutter gh:irvingfisica/cookie_base_vizda`
+`cookiecutter gh:irvingfisica/cookie_base_vda`
 
 Recomendaciones
 -----
